@@ -188,3 +188,5 @@ if __name__ == "__main__":
         io.stdout("vulnerable websites")
         for url in vulnerables:
             print("- " + url)
+    else:
+        parser.print_help()
